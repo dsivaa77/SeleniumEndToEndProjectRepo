@@ -16,6 +16,7 @@ public class ChromeLaunch {
         driver.manage().window().maximize();
 
         System.out.println(driver.getTitle());
+        driver.close();
 
         driver.quit();
     }
